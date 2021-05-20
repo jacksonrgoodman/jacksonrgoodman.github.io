@@ -276,11 +276,11 @@ textarea {
 
 .custom-navbar {
     margin-bottom: 0;
-    background-color: #ffffff;
+    background: #333;
 }
 
 .custom-navbar .navbar-brand {
-    color: #fff;
+    color: #ffffff;
 	  text-shadow: 1px 1px 5px #333;
     font-weight: bold;
     font-size: 24px;
@@ -289,7 +289,7 @@ textarea {
 }
 
 .custom-navbar .nav li a {
-    color: #666;
+    color: #ffffff;
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 1px;
@@ -310,7 +310,7 @@ textarea {
 
 .custom-navbar .nav li.active > a {
     background-color: transparent;
-    color: white;
+    color: greenyellow;
 }
 
 .custom-navbar .navbar-toggle {
