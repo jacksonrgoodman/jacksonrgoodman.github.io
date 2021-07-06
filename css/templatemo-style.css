@@ -198,7 +198,7 @@ a {
   text-decoration: none !important;
 }
 a:hover, a:active, a:focus {
-  color: #354F52;
+  color: greenyellow;
   outline: none;
 }
 
@@ -390,6 +390,9 @@ textarea {
 #about .about-img {
     background: url('../images/about-img.jpg') no-repeat;
 }
+#about .contact-img {
+  background: url('../images/contact-small-img.jpg') no-repeat;
+}
 
 #about .about-thumb,
 #about .skill-thumb {
@@ -541,6 +544,14 @@ textarea {
   background: url('../images/contact-img.jpg') no-repeat;
   min-height: 75vh;
 }
+#contact .about-img {
+  background: url('../images/about-img.jpg') no-repeat;
+  min-height: 75vh;
+}
+#contact .fun-img {
+  background: url('../images/fun-img.jpg') no-repeat;
+  min-height: 75vh;
+}
 
 #contact .contact-info {
   padding-top: 6px;
@@ -636,7 +647,7 @@ footer {
 }
 
 .social-icon li a:hover {
-    background: #354F52;
+    background: greenyellow;
     border-color: #ffffff;
     color: #ffffff;
     transform: scale(1.1);
