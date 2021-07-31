@@ -391,7 +391,7 @@ textarea {
     background: url('../images/about-img.jpg') no-repeat;
 }
 #about .contact-img {
-  background: url('../images/contact-small-img.jpg') no-repeat;
+  background: url('../images/general-bg.jpg') no-repeat;
 }
 
 #about .about-thumb,
@@ -525,6 +525,10 @@ textarea {
   padding-top: 32px;
 }
 
+.techs {
+  width: 10rem;
+  margin: 5rem 0rem;
+}
 
 /*---------------------------------------
     Contact section              
