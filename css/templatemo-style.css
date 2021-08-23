@@ -111,6 +111,12 @@ p {
   position: relative;
   padding-bottom: 22px;
 }
+.border {
+  border: 2px solid black;
+}
+.fit {
+  width:fit-content
+}
 
 #about,
 #service,
