@@ -4,31 +4,36 @@
 <head>
 
     <meta charset="UTF-8">
+
+    <title>Artist - Minimal HTML Portfolio</title>
+
+    <!--
+
+Template 2100 Artist
+
+http://www.tooplate.com/view/2100-artist
+
+-->
+
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="description" content="">
     <meta name="keywords" content="">
-    <meta name="author" content="templatemo">
+    <meta name="author" content="Tooplate">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <title>Jackson Goodman</title>
-    <!--
-Stimulus Template
-http://www.templatemo.com/tm-498-stimulus
--->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/templatemo-style.css">
 
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet">
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/tooplate-style.css">
 
 </head>
 
 <body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
 
-
-    <!--* PRE LOADER -->
-
+    <!-- PRE LOADER -->
     <div class="preloader">
         <div class="spinner">
             <span class="spinner-rotate"></span>
@@ -36,251 +41,57 @@ http://www.templatemo.com/tm-498-stimulus
     </div>
 
 
-    <!--* Navigation Section -->
+    <!-- HOME SECTION -->
+    <div class="container">
+        <div class="row">
+            <section id="home" class="parallax-section">
 
-    <div class="navbar navbar-fixed-top custom-navbar" role="navigation">
-        <div class="container">
+                <div class="col-md-offset-1 col-md-10 col-sm-12">
+                    <div class="home-wrapper">
+                        <h3 class="wow fadeInUp" data-wow-delay="0.4s">Digital Design</h3>
+                        <h1 class="wow fadeInUp" data-wow-delay="0.6s">Development and Design Applied Within Art And
+                            Science</h1>
+                        <a href="#about" class="wow fadeInUp smoothScroll arrow-btn" data-wow-delay="1s"><i
+                                class="fa fa-angle-double-down"></i></a>
+                    </div>
+                </div>
 
-            <!-- navbar header -->
-            <div class="navbar-header">
-                <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon icon-bar"></span>
-                    <span class="icon icon-bar"></span>
-                    <span class="icon icon-bar"></span>
-                </button>
-                <a href="#" class="color-white navbar-brand">Jackson Goodman</a>
-            </div>
-
-            <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#home" class="smoothScroll">Home</a></li>
-                    <li><a href="#about" class="smoothScroll">About Me</a></li>
-                    <li><a href="#experience" class="smoothScroll">Experience</a></li>
-                    <li><a href="#quotes" class="smoothScroll">Technologies</a></li>
-                    <li><a href="#contact" class="smoothScroll">Contact</a></li>
-                </ul>
-            </div>
-
+            </section>
         </div>
     </div>
 
 
-    <!--* Home Section -->
-
-    <section id="home" class="parallax-section">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-md-6 col-sm-6">
-                    <div class="home-img"></div>
-                </div>
-
-                <div class="col-md-6 col-sm-6">
-                    <div class="home-thumb">
-                        <div class="section-title">
-                            <h4 class="wow fadeInUp" data-wow-delay="0.3s">WELCOME</h4>
-                            <h1 class="wow fadeInUp" data-wow-delay="0.6s"><strong>Jackson
-                                    Goodman. <br /> <em>Software Developer.</em></strong><br />Currently
-                                based in
-                                Nashville.
-                            </h1>
-                            <!-- <p class="wow fadeInUp" data-wow-delay="0.9s">Donec auctor arcu at efficitur lacinia.
-                                        Praesent bibendum efficitur ipsum, et mattis tellus interdum in. Ut a dictum
-                                        purus. Vestibulum non pellentesque felis, sed dignissim urna. Vestibulum id
-                                        accumsan quam.</p> -->
-
-                            <a href="#about" class="wow fadeInUp smoothScroll section-btn btn btn-success"
-                                data-wow-delay="1.4s">Get Started</a>
-
-                        </div>
-                    </div>
-                </div>
-
-
-            </div>
-        </div>
-    </section>
-
-
-    <!--? About Section -->
-
+    <!-- ABOUT SECTION -->
     <section id="about" class="parallax-section">
         <div class="container">
             <div class="row">
 
-                <div class="col-md-6 col-sm-12">
+                <div class="col-md-4 col-sm-8">
+                    <img src="images/about-image.jpg" class="wow fadeInUp img-responsive" data-wow-delay="0.2s"
+                        alt="about image">
+                    <div class="wow fadeInUp" data-wow-delay="0.4s">
+                        <h4>Interested to Work?</h4>
+                        <p>Sed varius augue nec pharetra scelerisque. Maecenas sapien ex, rutrum sit amet dapibus eu,
+                            tincidunt vitae nulla.</p>
+                        <a href="#">hello@company.com</a>
+                    </div>
+                </div>
+
+                <div class="col-md-8 col-sm-12">
                     <div class="about-thumb">
-                        <div class="wow fadeInUp section-title" data-wow-delay="0.4s">
-                            <h1>About</h1>
-                            <p class="color-yellow">Using Computers To Help People</p>
-                            <div class="border fit">
-                                <a href="http://www.unitedwayhumphreys.org/how-to-help/give/"><img
-                                        src="https://img.shields.io/badge/Donate_Now-United_Way-FFF?style=for-the-badge&logo=AddThis&logoColor=FF0000"></a>
-                            </div>
+                        <div class="wow fadeInUp section-title" data-wow-delay="0.6s">
+                            <h3>we make things better</h3>
+                            <h2>Curabitur tristique ante non malesuada dignissim</h2>
                         </div>
                         <div class="wow fadeInUp" data-wow-delay="0.8s">
-                            <p>I am a professional software Developer working in the Greater Nashville Area</p>
-                            <p>Switching gears to become a Software Developer has been one of the most rewarding
-                                experiences in my life.</p>
-                            <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay"
-                                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1098907222&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-                            <div
-                                style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
-                                <a href="https://soundcloud.com/nashville-software-school"
-                                    title="Nashville Software School" target="_blank"
-                                    style="color: #cccccc; text-decoration: none;">Nashville Software
-                                    School</a> · <a
-                                    href="https://soundcloud.com/nashville-software-school/jackson-goodman-web"
-                                    title="Jackson Goodman - Web Development" target="_blank"
-                                    style="color: #cccccc; text-decoration: none;">Jackson Goodman - Web
-                                    Development</a>
-                            </div>
+                            <p>Credit goes to <a href="#"><b>Unsplash</b></a> for images used in this artist web page.
+                                Please tell your friends about <a rel="nofollow" href="http://tooplate.com"
+                                    target="_parent">Tooplate</a> website. You can feel free to use this template as you
+                                wish. Fusce quis fermentum enim, at rutrum enim. Sed tellus metus, laoreet eu turpis
+                                vel, sollicitudin feugiat libero. Ut ligula augue, condimentum a purus hendrerit,
+                                suscipit vehicula dui. Sed non purus purus. Mauris nunc lectus, porta pellentesque nisl
+                                nec, porttitor ultricies purus.</p>
                         </div>
-                    </div>
-                </div>
-
-                <div class="col-md-3 col-sm-6">
-                    <div class="background-image contact-img"></div>
-                </div>
-
-                <div class="bg-yellow col-md-3 col-sm-6">
-                    <div class="skill-thumb">
-                        <div class="wow fadeInUp section-title color-white" data-wow-delay="1.2s">
-                            <h1>My Projects</h1>
-                            <p class="color-white">Photoshop . Video Editing . HTML CSS JS . Web Design</p>
-                        </div>
-
-                        <div class=" wow fadeInUp skills-thumb" data-wow-delay="1.6s">
-                            <strong class="color-white">🍿_Popscore</strong>
-                            <span class="color-white pull-right">99%</span>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="99"
-                                    aria-valuemin="0" aria-valuemax="100" style="width: 99%;"></div>
-                            </div>
-                            <strong class="color-white">🎃Monster Hotel</strong>
-                            <span class="color-white pull-right">95%</span>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="95"
-                                    aria-valuemin="0" aria-valuemax="100" style="width: 95%;"></div>
-                            </div>
-
-                            <strong class="color-white">DogGo</strong>
-                            <span class="color-white pull-right">85%</span>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="85"
-                                    aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div>
-                            </div>
-
-                            <strong class="color-white">Personal Site</strong>
-                            <span class="color-white pull-right">80%</span>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="80"
-                                    aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
-                            </div>
-
-                            <strong class="color-white">Karma Police</strong>
-                            <span class="color-white pull-right">01%</span>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="1"
-                                    aria-valuemin="0" aria-valuemax="100" style="width: 1%;">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-    </section>
-
-
-    <!--? Service Section -->
-
-    <!-- <section id="service" class="parallax-section">
-          <div class="container">
-               <div class="row">
-
-                    <div class="bg-yellow col-md-3 col-sm-6">
-                         <div class="wow fadeInUp color-white service-thumb" data-wow-delay="0.8s">
-                              <i class="fa fa-desktop"></i>
-                              <h3>Interface Design</h3>
-                              <p class="color-white">Phasellus vulputate tellus nec tortor varius elementum. Curabitur
-                                   at pulvinar ante.</p>
-                         </div>
-                    </div>
-
-                    <div class="col-md-3 col-sm-6">
-                         <div class="wow fadeInUp service-thumb" data-wow-delay="1.2s">
-                              <i class="fa fa-paper-plane"></i>
-                              <h3>Media Strategy</h3>
-                              <p class="color-white">Curabitur at pulvinar ante. Duis dui urna, faucibus eget felis eu,
-                                   iaculis congue sem.</p>
-                         </div>
-                    </div>
-
-                    <div class="bg-dark col-md-3 col-sm-6">
-                         <div class="wow fadeInUp color-white service-thumb" data-wow-delay="1.6s">
-                              <i class="fa fa-table"></i>
-                              <h3>Mobile Apps</h3>
-                              <p class="color-white">Mauris convallis eros massa, vitae euismod arcu tempus ut. Quisque
-                                   viverra iaculis.</p>
-                         </div>
-                    </div>
-
-                    <div class="bg-white col-md-3 col-sm-6">
-                         <div class="wow fadeInUp service-thumb" data-wow-delay="1.8s">
-                              <i class="fa fa-html5"></i>
-                              <h3>Coding</h3>
-                              <p>Mauris convallis eros massa, vitae euismod arcu tempus ut. Quisque viverra iaculis.</p>
-                         </div>
-                    </div>
-
-               </div>
-          </div>
-     </section> -->
-
-
-    <!--? Experience Section -->
-
-    <section id="experience" class="parallax-section">
-        <div class="container">
-            <div class="row">
-
-                <!-- <div class="col-md-6 col-sm-6">
-                         <div class="background-image experience-img"></div>
-                    </div> -->
-
-                <div class="col-md-6 col-sm-6">
-                    <div class="experience-thumb">
-                        <div class="wow fadeInUp section-title" data-wow-delay="0.8s">
-                            <h1>My Experiences</h1>
-                            <p class="color-white">Previous Work</p>
-                        </div>
-
-                        <div class="wow fadeInUp  media" data-wow-delay="1.2s">
-                            <div class="media-object media-left">
-                                <i class="fa fa-camera"></i>
-                            </div>
-                            <div class="media-body">
-                                <h3 class="media-heading">News Producer <small>2018 Aug - 2019 March</small>
-                                </h3>
-                                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                        </p> -->
-                            </div>
-                        </div>
-
-                        <div class="wow fadeInUp  media" data-wow-delay="1.6s">
-                            <div class="media-object media-left">
-                                <i class="fa fa-laptop"></i>
-                            </div>
-                            <div class="media-body">
-                                <h3 class="media-heading">Software Developer <small>2020 Oct - Present</small>
-                                </h3>
-                                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                        </p> -->
-                            </div>
-                        </div>
-
                     </div>
                 </div>
 
@@ -289,188 +100,159 @@ http://www.templatemo.com/tm-498-stimulus
     </section>
 
 
-    <!--? Education Section -->
-
-    <section id="education" class="parallax-section">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-md-6 col-sm-6">
-                    <div class="color-white education-thumb">
-                        <div class="wow fadeInUp section-title" data-wow-delay="0.8s">
-                            <h1>My Education</h1>
-                            <!-- <p class="color-white">In cursus orci non ipsum gravida dignissim</p> -->
-                        </div>
-
-                        <div class="wow fadeInUp color-white media" data-wow-delay="1.2s">
-                            <div class="media-object media-left">
-                                <i class="fa fa-laptop"></i>
-                            </div>
-                            <div class="media-body">
-                                <h3 class="media-heading">Nashville Software School <small>2021</small>
-                                </h3>
-
-                                <!-- <p class="color-white">Etiam iaculis elit in mauris ullamcorper auctor. Proin a
-                                             sapien id orci ullamcorper dignissim eu in neque. </p> -->
-                            </div>
-                        </div>
-
-                        <!-- <div class="wow fadeInUp color-white media" data-wow-delay="1.6s">
-                                   <div class="media-object media-left">
-                                        <i class="fa fa-laptop"></i>
-                                   </div>
-                                   <div class="media-body">
-                                        <h3 class="media-heading">Bachelor of Arts <small>2008 May - 2011 Dec</small>
-                                        </h3>
-                                        <p class="color-white">Orci varius natoque penatibus et magnis dis parturient
-                                             montes, nascetur ridiculus mus.</p>
-                                   </div>
-                              </div> -->
-
-                    </div>
-                </div>
-
-                <!-- <div class="col-md-6 col-sm-6">
-                         <div class="background-image education-img"></div>
-                    </div> -->
-
-            </div>
-        </div>
-    </section>
-
-
-    <!-- ! Tech Stack Section -->
-
-    <section id="quotes" class="parallax-section">
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="row">
-
-                <div class="col-md-offset-1 col-md-10 col-sm-12">
-                    <i class="wow fadeInUp fa fa-star" data-wow-delay="0.6s"></i>
-                    <h2 class="wow fadeInUp" data-wow-delay="0.8s">Technology Stack</h2>
-                    <img class="techs fadeInUp wow" src="images/techs/ado-net.png" alt="ado.net" data-toggle="tooltip"
-                        data-placement="top" title="ado.net">
-                    <img class="techs fadeInUp wow" src="images/techs/aspnetMVC.png" alt="MVC" data-toggle="tooltip"
-                        data-placement="top" title="MVC">
-                    <img class="techs fadeInUp wow" src="images/techs/python.png" alt="python" data-toggle="tooltip"
-                        data-placement="top" title="python">
-                    <br />
-                    <img class="techs fadeInUp wow" src="images/techs/csharp.png" alt="CSHARP" data-toggle="tooltip"
-                        data-placement="top" title="csharp">
-                    <img class="techs fadeInUp wow" src="images/techs/css3.png" alt="css3" data-toggle="tooltip"
-                        data-placement="top" title="css3">
-                    <img class="techs fadeInUp wow" src="images/techs/firebase.png" alt="firebase" data-toggle="tooltip"
-                        data-placement="top" title="firebase">
-                    <br />
-                    <img class="techs fadeInUp wow" src="images/techs/git.png" alt="git" data-toggle="tooltip"
-                        data-placement="top" title="git">
-                    <img class="techs fadeInUp wow" src="images/techs/github.png" alt="github" data-toggle="tooltip"
-                        data-placement="top" title="github">
-                    <img class="techs fadeInUp wow" src="images/techs/html5.png" alt="html5" data-toggle="tooltip"
-                        data-placement="top" title="html5">
-                    <br />
-                    <img class="techs fadeInUp wow" src="images/techs/javascript.png" alt="javascript"
-                        data-toggle="tooltip" data-placement="top" title="javascript">
-                    <img class="techs fadeInUp wow" src="images/techs/sqlserver.png" alt="SQL" data-toggle="tooltip"
-                        data-placement="top" title="SQL">
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-
-    <!-- Contact Section -->
-
-    <section id="contact" class="parallax-section">
-        <div class="container">
-            <div class="row">
-
-                <!-- <div class="bg-yellow col-md-6 col-sm-12">
-                         <div class="contact-form">
-                              <div class="wow fadeInUp section-title" data-wow-delay="0.2s">
-                                   <h1 class="color-white">Write A Message</h1>
-                                   <p class="color-white">I'll Get Back To You ASAP.</p>
-                              </div>
-
-                              <div id="contact-form">
-                                   <form action="#template-mo" method="post">
-                                        <div class="wow fadeInUp" data-wow-delay="1s">
-                                             <input name="fullname" type="text" class="form-control" id="fullname"
-                                                  placeholder="Your Name">
-                                        </div>
-                                        <div class="wow fadeInUp" data-wow-delay="1.2s">
-                                             <input name="email" type="email" class="form-control" id="email"
-                                                  placeholder="Your Email">
-                                        </div>
-                                        <div class="wow fadeInUp" data-wow-delay="1.4s">
-                                             <textarea cols="40" name="message" rows="5" class="form-control"
-                                                  id="message" placeholder="Write your message..."></textarea>
-                                        </div>
-                                        <div class="wow fadeInUp col-md-6 col-sm-8" data-wow-delay="1.6s">
-                                             <input name="submit" type="submit" class="form-control" id="submit"
-                                                  value="Send">
-                                        </div>
-                                   </form>
-                              </div>
-
-                         </div>
-                    </div> -->
-
-                <div class="col-md-3 col-sm-6">
-                    <div class="background-image contact-img"></div>
-                </div>
-
-                <div class="bg-yellow col-md-3 col-sm-6">
-                    <div class="contact-thumb">
-                        <div class="wow fadeInUp contact-info" data-wow-delay="0.6s">
-                            <h3 class="color-white">Get In Touch</h3>
-                            <!-- <p>1234 Main Street ,Address EX USA</p> -->
-                        </div>
-
-                        <div class="wow fadeInUp contact-info" data-wow-delay="0.8s">
-                            <h3 class="color-white">Contact.</h3>
-                            <p class="color-white"><i class="fa fa-phone"></i> 615-838-1963</p>
-                            <p><i class="fa color-white fa-envelope-o"></i> <a class="color-white"
-                                    href="mailto:jacksonrgoodman@gmail.com">jacksonrgoodman@gmail.com</a></p>
-                            <!-- <p><i class="fa fa-globe"></i> <a href="#">company.co</a></p> -->
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="col-md-3 col-sm-6">
-                    <div class="background-image about-img"></div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="background-image fun-img"></div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-
-    <!-- Footer Section -->
-
-    <footer>
+    <!-- WORK SECTION -->
+    <section id="work" class="parallax-section">
         <div class="container">
             <div class="row">
 
                 <div class="col-md-12 col-sm-12">
-                    <div class="wow fadeInUp footer-copyright" data-wow-delay="1.8s">
-                        <p>Copyright &copy; 2021 Jackson Goodman
-
-                            <!-- | Design: <a href="http://www.google.com/+templatemo" target="_parent">templatemo</a> -->
-                        </p>
+                    <!-- SECTION TITLE -->
+                    <div class="wow fadeInUp section-title" data-wow-delay="0.2s">
+                        <h2>Work Collection</h2>
+                        <p>Morbi sit amet erat ullamcorper, varius erat at, vehicula massa. Phasellus vel vestibulum
+                            purus. Sed id sollicitudin ex, id eleifend purus. Nulla id fermentum nisl, vel tincidunt
+                            orci. Curabitur tristique ante non malesuada dignissim. Pellentesque id odio vitae enim
+                            efficitur ornare a non metus.</p>
                     </div>
-                    <ul class="wow fadeInUp social-icon" data-wow-delay="2s">
-                        <li><a href="https://twitter.com/JacksnGoodman" class="fa fa-twitter"></a></li>
-                        <li><a href="https://dribbble.com/jacksonrgoodman" class="fa fa-dribbble"></a></li>
-                        <li><a href="https://www.linkedin.com/in/jacksonrgoodman/" class="fa fa-linkedin"></a>
-                        <li><a href="https://github.com/jacksonrgoodman" class="fa fa-github"></a>
-                        </li>
+                </div>
+
+                <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.4s">
+                    <!-- WORK THUMB -->
+                    <div class="work-thumb">
+                        <a href="images/work-1.jpg" class="image-popup">
+                            <img src="images/work-1.jpg" class="img-responsive" alt="Fine Arts">
+                        </a>
+                    </div>
+                    <h4>Systems Support Engineering</h4>
+                </div>
+
+                <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.6s">
+                    <!-- WORK THUMB -->
+                    <div class="work-thumb">
+                        <a href="images/work-2.jpg" class="image-popup">
+                            <img src="images/work-2.jpg" class="img-responsive" alt="Logo Design">
+                        </a>
+                    </div>
+                    <h4>Design</h4>
+                </div>
+
+                <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.8s">
+                    <!-- WORK THUMB -->
+                    <div class="work-thumb">
+                        <a href="images/work-3.jpg" class="image-popup">
+                            <img src="images/work-3.jpg" class="img-responsive" alt="Photography">
+                        </a>
+                    </div>
+                    <h4>Photography</h4>
+                </div>
+
+                <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.8s">
+                    <!-- WORK THUMB -->
+                    <div class="work-thumb">
+                        <a href="images/work-4.jpg" class="image-popup">
+                            <img src="images/work-4.jpg" class="img-responsive" alt="Cinematography">
+                        </a>
+                    </div>
+                    <h4>Cinematography</h4>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- CONTACT SECTION -->
+    <!-- <section id="contact" class="parallax-section">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-12 col-sm-12">
+
+                    <div class="wow fadeInUp section-title" data-wow-delay="0.2s">
+                        <h2>Get in touch</h2>
+                        <p>Quisque lobortis nibh eu nisi sodales gravida. Sed vehicula mauris in orci vehicula, at
+                            luctus mauris hendrerit. Fusce aliquet quis ante ac pretium. Donec quis nibh sed elit
+                            rhoncus condimentum.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-12 col-sm-12">
+
+                    <div class="wow fadeInUp" data-wow-delay="0.6s">
+                        <form action="#" method="post" id="contact-form">
+                            <div class="col-md-6 col-sm-6">
+                                <input type="text" class="form-control" name="name" placeholder="Name">
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <input type="email" class="form-control" name="email" placeholder="Email">
+                            </div>
+                            <div class="col-md-12 col-sm-12">
+                                <textarea class="form-control" rows="5" name="message" placeholder="Message"></textarea>
+                            </div>
+                            <div class="col-md-offset-3 col-md-6 col-sm-offset-3 col-sm-6">
+                                <button id="submit" type="submit" class="form-control" value="send-mail"
+                                    name="submit">Send
+                                    Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div> -->
+
+    </div>
+    </div>
+    </section>
+
+
+    <!-- FOOTER SECTION -->
+    <footer id="footer" class="parallax-section">
+        <div class="container">
+            <div class="row">
+
+                <div class="wow fadeInUp col-md-4 col-sm-4" data-wow-delay="0.2s">
+                    <h4>Collaborative Coding Environments</h4>
+                    <p>Curabitur quis volutpat elit. Proin sed sagittis arcu, non tristique libero. Quisque lobortis
+                        nibh eu nisi sodales gravida.</p>
+                </div>
+
+                <div class="wow fadeInUp col-md-4 col-sm-4" data-wow-delay="0.4s">
+                    <div class="support-cus">
+                        <h4>Reach Out</h4>
+                        <!-- <p>456 Old Street, New City, ASIA</p> -->
+                    </div>
+                    <div class="support-cus">
+                        <h4>Contact Info</h4>
+                        <p><a href="mailto:jacksonrgoodman@gmail.com?subject=Inquiry">jacksonrgoodman@gmail.com</a></p>
+                        <!-- <p>Tel: 010-020-0890</p> -->
+                    </div>
+                </div>
+
+                <!-- <div class="wow fadeInUp col-md-4 col-sm-4" data-wow-delay="0.6s">
+                    <h4>Newsletter</h4>
+                    <form class="newsletter" action="#" method="get">
+                        <input name="email" type="email" class="form-control" id="email"
+                            placeholder="Your Email Address">
+                        <button name="submit" value="sign-up" class='form-control'>Sign Up</button>
+                    </form>
+                </div> -->
+
+                <div class="col-md-12 col-sm-12 clearfix">
+                    <div class="dash-line"></div>
+                </div>
+
+                <div class="wow fadeInUp col-md-6 col-sm-6" data-wow-delay="0.8s">
+                    <p class="copyright-text">Copyright © 2022
+
+                        . Design: <a rel="nofollow" href="https://www.tooplate.com" title="HTML Templates">Tooplate</a>
+                    </p>
+                </div>
+
+                <div class="wow fadeInUp col-md-6 col-sm-6" data-wow-delay="1s">
+                    <ul class="social-icon">
+                        <li><a href="#" class="fa fa-steam"></a></li>
+                        <li><a href="#" class="fa fa-github"></a></li>
+                        <li><a href="#" class="fa fa-tree"></a></li>
+                        <!-- <li><a href="#" class="fa fa-instagram"></a></li>
+                        <li><a href="#" class="fa fa-behance"></a></li> -->
                     </ul>
                 </div>
 
@@ -479,10 +261,11 @@ http://www.templatemo.com/tm-498-stimulus
     </footer>
 
     <!-- SCRIPTS -->
-
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.parallax.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/magnific-popup-options.js"></script>
     <script src="js/smoothscroll.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/custom.js"></script>
